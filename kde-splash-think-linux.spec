@@ -18,10 +18,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-"Think Linux" KDE splash screen.
+Nice splash with Tux planning to do something nasty to MSN butterfly :)
 
 %description -l pl
-Ekran startowy KDE "Think Linux".
+£adny motyw z Tuxem planuj±cym zrobiæ co¶ okropnego z motylkiem MSN :)
 
 %prep
 %setup -q -n %{_splash}
